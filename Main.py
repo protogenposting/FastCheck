@@ -2,6 +2,8 @@ import requests
 
 import datetime
 
+# INSTALL BEAUTIFUL SOUP https://beautiful-soup-4.readthedocs.io/en/latest/
+
 def daily3():
     print("Daily 3 selected")
 
