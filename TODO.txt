@@ -7,3 +7,7 @@
 - get daily 3 working
 
 - remember to make cli HUMAN READABLE and USER FRIENDLY (this is EXTREMELY IMPORTANT if you don't do it I'll EXPLODE)
+
+- add parsing for the actual report
+
+- fully automate the process at some point!!
