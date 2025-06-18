@@ -1,0 +1,9 @@
+- ask nick if he can help install dependencies
+
+- obtain html parser
+
+- ask if there's a way to access the APIs so you can do raw get requests (prob not but nice to ask, build the program around html so you don't have to deal with that)
+
+- get daily 3 working
+
+- remember to make cli HUMAN READABLE and USER FRIENDLY (this is EXTREMELY IMPORTANT if you don't do it I'll EXPLODE)
