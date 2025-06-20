@@ -9,11 +9,15 @@ def daily3():
 
     yesterday = datetime.now() - timedelta(1)
 
-    print(datetime.strftime(yesterday, '%Y-%m-%d'))
+    time = datetime.strftime(yesterday, '%Y-%m-%d')
 
-    url = "https://www.michiganlottery.com/games/daily-3?drawDate"
+    print(time)
 
-    req = requests.get("https://www.michiganlottery.com/games/daily-3?drawDate=2025-06-17")
+    url = "https://www.michiganlottery.com/games/daily-3?drawDate="+time
+
+    req = requests.get(url)
+
+    print(req)
 
 print("Welcome to FastCheck! The slightly easier way to verify numbers on the MSL website")
 
