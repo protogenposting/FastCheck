@@ -1,4 +1,4 @@
-import requests
+# import requests
 
 import datetime
 
@@ -28,4 +28,4 @@ input = int(input("What do you want to check? "))
 if(input == 1):
     daily3()
 else:
-    print("no valid selections, DO BETTER")
+    print("no valid selections")
