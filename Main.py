@@ -6,26 +6,26 @@
 
 # check daily 3 midday and evenings
 def daily3():
-    print("Daily 3 check started")
+    print("Daily 3 check started");
 
-    url = "https://www.michiganlottery.com/games/daily-3"
+    url = "https://www.michiganlottery.com/games/daily-3";
 
     # Stuff is commented out due to not having the module installed yet
 
-    # req = requests.get(url)
+    # req = requests.get(url);
 
-    #print(req)
+    #print(req);
 
 # Start of program
-print("Welcome to FastCheck! The program that saves you exactly 3 minutes of checking numbers")
+print("Welcome to FastCheck! The program that saves you exactly 3 minutes of checking numbers");
 
-print("1 - Daily 3")
+print("1 - Daily 3");
 
 # Get the input for which one to check, make it just simply check it in order later
-input = int(input("What do you want to check? "))
+input = int(input("What do you want to check? "));
 
 # Keep this tree for now, check automatically in order later.
 if(input == 1):
-    daily3()
+    daily3();
 else:
-    print("no valid selections")
+    print("no valid selections");
